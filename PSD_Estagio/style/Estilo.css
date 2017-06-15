@@ -1,0 +1,99 @@
+#home{
+    width: 100%;
+    height: 50vw;
+    background-image: url("img/cidade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#home h2{
+    color: white;
+    font-size: 50px;
+}
+#pesquisa{
+    width: 30%;
+    height: 10%;
+    padding: 2vw 5vh;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+#pesquisa input[type=button]{
+    width: 500px;
+    height: 3vw;
+    position: relative;
+
+}
+#pesquisa input[type=text]{
+    border-radius: 5px;
+    border:2px solid black;
+    padding: 2% 4%;
+    width: 200px;
+    height: 3vw;
+    position: relative;
+}
+#pesquisa input[type=orb]{
+    width:500px;
+    height: 3vw;
+    padding: 3% 4%;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+
+#barrasuper{
+    width: 100%;
+    height: 5vw;
+}
+#barrasuper button{
+    padding: 0vw 8vh;
+    height: 3vw;
+}
+#barrasuper button[id=logar]{
+    margin-right: 20vh;
+    background: white;
+}
+#obrigatorio{
+    color: green;
+}
+.super{
+    width: 100%;
+    float: left;
+}
+.sub{
+    float: left;
+    width: 19%;
+    margin-left: 10vh;
+    height: 5vw;
+    display: table-cell;
+}
+#desenvolvimento{
+    margin-top: 20%;
+    margin-left: 40%;
+}
+#center{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+#azul{
+    width: 50vh;
+    height: 15vw;
+    background: #28CBFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 3%;
+}
+#preto{
+    width: 50vh;
+    height: 10vw;
+    background: #242223;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10%;
+    color: white;
+
+}
+#increment{
+    width: 8vh;
+    height: 2vw;
+}
